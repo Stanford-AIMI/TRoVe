@@ -1,0 +1,23 @@
+[project]
+name = "trove"
+version = "0.1.0"
+description = "TRoVe: Discovering Error-Inducing Static Feature Biases in Temporal Vision-Language Models"
+readme = "README.md"
+requires-python = ">=3.9"
+license = {file = "LICENSE"}
+authors = [{name = "Maya Varma"}]
+
+dependencies = [
+    "numpy==1.24.4",
+    "pandas==2.0.3",
+    "rich", 
+    "prettytable", 
+    "packaging",
+    "faiss-cpu==1.8.0",
+    "scikit-learn",
+    "opencv-python",
+    "matplotlib"
+]
+
+[project.urls]
+Homepage = "https://github.com/Stanford-AIMI/TRoVe"
