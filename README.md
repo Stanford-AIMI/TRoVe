@@ -16,7 +16,7 @@ For additional details, please refer to our [paper](https://arxiv.org/abs/2512.0
 Use the following commands to clone and install this repository. We recommend using Python 3.9.
 ```python
 git clone https://github.com/Stanford-AIMI/TRoVe.git
-cd trove
+cd TRoVe
 pip install -e .
 ```
 
